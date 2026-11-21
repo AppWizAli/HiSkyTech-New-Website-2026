@@ -1,0 +1,29 @@
+# HiSkyTech static export on Hostinger Apache.
+# Upload this with the contents of `out/`. If public_html already has an
+# .htaccess, merge these rules in rather than discarding Hostinger defaults.
+# Do not use these rules to touch Admin, blogger_master, convertly, f, or ggg.
+
+Options -Indexes -MultiViews
+DirectoryIndex index.html
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # Unrelated apps that already live in this public_html.
+  RewriteRule ^(Admin|blogger_master|convertly|f|ggg)(/|$) - [L]
+
+  # One canonical host. Apex, not www.
+  RewriteCond %{HTTP_HOST} ^www\.hiskytechs\.com$ [NC]
+  RewriteRule ^ https://hiskytechs.com%{REQUEST_URI} [R=301,L]
+
+  # Safety net for a half-updated export: if /contact/ is a directory with
+  # no index.html, but contact.html is still sitting next to it, serve the
+  # file instead of Apache's 403. A current build writes contact/index.html,
+  # so this rule does not run after a clean upload.
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteCond %{REQUEST_FILENAME}/index.html !-f
+  RewriteCond %{DOCUMENT_ROOT}/$1.html -f
+  RewriteRule ^(.+?)/?$ /$1.html [L]
+</IfModule>
+
+ErrorDocument 404 /404.html
