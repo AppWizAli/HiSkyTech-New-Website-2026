@@ -45,7 +45,7 @@ Leave these folders alone:
 - `f`
 - `ggg`
 
-If `public_html` already has an `.htaccess`, merge `out/.htaccess` into it instead of wiping Hostinger rules. The shipped file turns off directory indexes, sets `DirectoryIndex index.html`, redirects `www` to the apex, and falls back to `route.html` when a directory has no index.
+If `public_html` already has an `.htaccess`, merge `out/.htaccess` into it instead of wiping Hostinger rules. The shipped file turns off directory indexes, sets `DirectoryIndex index.html index.php` so Next routes and PHP apps such as `/Admin/` both resolve, redirects `www` to the apex, and falls back to `route.html` when a directory has no index.
 
 ## Owner inputs
 

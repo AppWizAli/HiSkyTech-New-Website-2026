@@ -4,7 +4,9 @@
 # Do not use these rules to touch Admin, blogger_master, convertly, f, or ggg.
 
 Options -Indexes -MultiViews
-DirectoryIndex index.html
+# index.html first so Next routes win. index.php second so PHP apps
+# such as /Admin/ still resolve instead of returning 403.
+DirectoryIndex index.html index.php
 
 <IfModule mod_rewrite.c>
   RewriteEngine On
