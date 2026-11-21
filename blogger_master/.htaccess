@@ -1,0 +1,12 @@
+# Enable mod_rewrite
+RewriteEngine On
+
+# Redirect requests that don't directly map to files or directories
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Rewrite URL structure from /blog-title to /single-blog.php?slug=blog-title
+RewriteRule ^([a-zA-Z0-9_-]+)$ single-blog.php?slug=$1 [L,QSA]
+
+# Remove .php extension from URL (for all .php files)
+RewriteRule ^([^\.]+)$ $1.php [NC,L]

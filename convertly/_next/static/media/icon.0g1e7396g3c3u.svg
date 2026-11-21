@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="convertlyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4648d4" />
+      <stop offset="100%" stop-color="#8127cf" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="32" fill="#f6f3ff" />
+  <path
+    d="M36 40h38c10.493 0 19 8.507 19 19s-8.507 19-19 19H36"
+    fill="none"
+    stroke="url(#convertlyGradient)"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    stroke-width="12"
+  />
+  <path
+    d="M46 29 27 48l19 19"
+    fill="none"
+    stroke="#1b2237"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    stroke-width="12"
+  />
+</svg>

@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tabula Rasa Farms — Wyoming</title>
+<meta name="description" content="Tabula Rasa Farms LLC. A working farm on Wyoming's open ground, started from a blank slate.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@300;400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- preloader -->
+<div class="preloader" id="preloader">
+  <div class="preloader-mark">
+    <span>Tabula Rasa</span>
+  </div>
+</div>
+
+<div class="grain-overlay" aria-hidden="true"></div>
+<div class="cursor-dot" id="cursorDot" aria-hidden="true"></div>
+<div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+<!-- ============ NAV ============ -->
+<header class="site-header" id="top">
+  <div class="header-inner">
+    <a href="#top" class="brand-mark">
+      <span class="brand-mark__name">Tabula&nbsp;Rasa</span>
+      <span class="brand-mark__sub">Farms</span>
+    </a>
+    <nav class="main-nav" aria-label="Primary">
+      <a href="#philosophy" data-hover><span>The ground</span></a>
+      <a href="#practices" data-hover><span>Practices</span></a>
+      <a href="#gallery" data-hover><span>The seasons</span></a>
+      <a href="#land" data-hover><span>The land</span></a>
+      <a href="#visit" data-hover><span>Visit</span></a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- mobile menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#philosophy">The ground</a>
+  <a href="#practices">Practices</a>
+  <a href="#gallery">The seasons</a>
+  <a href="#land">The land</a>
+  <a href="#visit">Visit</a>
+</div>
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+
+  <svg class="hero-illustration" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
+    <defs>
+      <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#FBF7EA"></stop>
+        <stop offset="55%" stop-color="#F6F1E4"></stop>
+        <stop offset="100%" stop-color="#EDE2C0"></stop>
+      </linearGradient>
+      <radialGradient id="sunGlow" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stop-color="#F3C77B" stop-opacity="0.95"></stop>
+        <stop offset="45%" stop-color="#E7AE56" stop-opacity="0.5"></stop>
+        <stop offset="100%" stop-color="#E7AE56" stop-opacity="0"></stop>
+      </radialGradient>
+      <linearGradient id="hillFar" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#C9A671"></stop>
+        <stop offset="100%" stop-color="#B89058"></stop>
+      </linearGradient>
+      <linearGradient id="hillNear" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#9C7126"></stop>
+        <stop offset="100%" stop-color="#7A5A1E"></stop>
+      </linearGradient>
+      <linearGradient id="fieldGrad" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#3A301E"></stop>
+        <stop offset="100%" stop-color="#1B1812"></stop>
+      </linearGradient>
+    </defs>
+
+    <rect x="0" y="0" width="1600" height="900" fill="url(#skyGrad)"></rect>
+
+    <circle class="hero-sun" cx="1280" cy="230" r="190" fill="url(#sunGlow)"></circle>
+    <circle class="hero-sun-core" cx="1280" cy="230" r="58" fill="#F3C77B"></circle>
+
+    <g class="hero-bird" style="animation-delay:0s">
+      <path d="M0,0 q10,-10 20,0 q10,-10 20,0" stroke="#5E4A2A" stroke-width="2.5" fill="none" stroke-linecap="round" transform="translate(420,160)"></path>
+    </g>
+    <g class="hero-bird" style="animation-delay:1.4s">
+      <path d="M0,0 q8,-8 16,0 q8,-8 16,0" stroke="#5E4A2A" stroke-width="2.2" fill="none" stroke-linecap="round" transform="translate(520,120)"></path>
+    </g>
+    <g class="hero-bird" style="animation-delay:2.8s">
+      <path d="M0,0 q8,-8 16,0 q8,-8 16,0" stroke="#5E4A2A" stroke-width="2.2" fill="none" stroke-linecap="round" transform="translate(900,90)"></path>
+    </g>
+
+    <path class="hero-hill hero-hill--far" d="M0,560 C220,500 380,610 620,540 C860,470 1040,580 1280,520 C1420,485 1520,520 1600,500 L1600,900 L0,900 Z" fill="url(#hillFar)"></path>
+
+    <path class="hero-hill hero-hill--near" d="M0,660 C260,600 420,690 700,640 C980,590 1160,680 1380,630 C1480,608 1550,635 1600,625 L1600,900 L0,900 Z" fill="url(#hillNear)"></path>
+
+    <path class="hero-field-shape" d="M0,760 C300,710 520,790 800,745 C1080,700 1320,770 1600,735 L1600,900 L0,900 Z" fill="url(#fieldGrad)"></path>
+
+    <g class="hero-wheat-rows" clip-path="inset(0)">
+      <g stroke="#F6F1E4" stroke-opacity="0.07" stroke-width="2">
+        <line x1="-80" y1="900" x2="560" y2="730"></line>
+        <line x1="0" y1="900" x2="640" y2="725"></line>
+        <line x1="90" y1="900" x2="720" y2="722"></line>
+        <line x1="180" y1="900" x2="800" y2="718"></line>
+        <line x1="270" y1="900" x2="880" y2="715"></line>
+        <line x1="360" y1="900" x2="960" y2="712"></line>
+        <line x1="450" y1="900" x2="1040" y2="710"></line>
+        <line x1="540" y1="900" x2="1120" y2="715"></line>
+        <line x1="630" y1="900" x2="1200" y2="718"></line>
+        <line x1="720" y1="900" x2="1280" y2="722"></line>
+        <line x1="810" y1="900" x2="1360" y2="726"></line>
+        <line x1="900" y1="900" x2="1440" y2="730"></line>
+        <line x1="990" y1="900" x2="1520" y2="734"></line>
+        <line x1="1080" y1="900" x2="1600" y2="738"></line>
+        <line x1="1170" y1="900" x2="1680" y2="742"></line>
+      </g>
+    </g>
+
+    <g class="hero-stalks" opacity="0.5">
+      <g transform="translate(120,860)"><path d="M0,40 Q-4,10 0,-30" stroke="#C8973F" stroke-width="2" fill="none"></path><path d="M0,40 Q4,10 0,-30" stroke="#C8973F" stroke-width="2" fill="none"></path></g>
+      <g transform="translate(180,855)"><path d="M0,40 Q-4,10 0,-32" stroke="#C8973F" stroke-width="2" fill="none"></path><path d="M0,40 Q4,10 0,-32" stroke="#C8973F" stroke-width="2" fill="none"></path></g>
+      <g transform="translate(1420,862)"><path d="M0,40 Q-4,10 0,-30" stroke="#C8973F" stroke-width="2" fill="none"></path><path d="M0,40 Q4,10 0,-30" stroke="#C8973F" stroke-width="2" fill="none"></path></g>
+      <g transform="translate(1480,858)"><path d="M0,40 Q-4,10 0,-32" stroke="#C8973F" stroke-width="2" fill="none"></path><path d="M0,40 Q4,10 0,-32" stroke="#C8973F" stroke-width="2" fill="none"></path></g>
+    </g>
+  </svg>
+
+  <div class="hero-content">
+    <p class="hero-eyebrow reveal-up">Established 2024 · Cheyenne, Wyoming</p>
+    <h1 class="hero-title">
+      <span class="reveal-line"><span class="reveal-inner">Before anything</span></span>
+      <span class="reveal-line"><span class="reveal-inner">grows here,</span></span>
+      <span class="reveal-line"><span class="reveal-inner"><em>the ground gets&nbsp;cleared.</em></span></span>
+    </h1>
+    <p class="hero-sub reveal-up">Tabula Rasa Farms works a stretch of Wyoming high plain the old way: rest the soil, read the season, plant only what the land actually asks for.</p>
+    <div class="hero-actions reveal-up">
+      <a href="#philosophy" class="btn btn--primary" data-magnetic><span>Read how we farm</span></a>
+      <a href="#visit" class="btn btn--ghost" data-magnetic><span>Visit the farm</span></a>
+    </div>
+  </div>
+
+  <a href="#philosophy" class="scroll-cue" aria-label="Scroll to content">
+    <span></span>
+  </a>
+</section>
+
+<!-- ============ INTRO STRIP ============ -->
+<section class="intro-strip">
+  <p class="reveal-up">
+    <span class="intro-strip__lede">Tabula rasa</span> — Latin for a slate wiped clean. It's the name of this place because every March the ground here forgets last year and waits to be told what comes next. Forty-one years of family farming taught us that's not a metaphor. It's a method.
+  </p>
+</section>
+
+<!-- ============ PHILOSOPHY ============ -->
+<section class="philosophy" id="philosophy">
+  <div class="section-frame">
+    <p class="section-eyebrow reveal-up">The ground</p>
+    <h2 class="section-title reveal-up">Three rules the land actually keeps</h2>
+  </div>
+
+  <div class="philosophy-grid">
+    <article class="philosophy-card reveal-up" data-tilt>
+      <span class="philosophy-card__icon" aria-hidden="true">
+        <svg viewBox="0 0 48 48" fill="none"><path d="M8 32c4-10 12-16 16-4 4-10 12-16 16-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path><path d="M24 18v18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path></svg>
+      </span>
+      <span class="philosophy-card__mark">No till, no rush.</span>
+      <h3>Soil is a structure, not a surface</h3>
+      <p>We stopped turning the topsoil over a decade ago. What's underneath is a slow architecture of roots, fungi, and worked-over minerals — disturb it less and it holds water, carbon, and nitrogen on its own terms.</p>
+    </article>
+    <article class="philosophy-card reveal-up" data-tilt>
+      <span class="philosophy-card__icon" aria-hidden="true">
+        <svg viewBox="0 0 48 48" fill="none"><path d="M24 6a18 18 0 1 0 12.7 30.7" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path><path d="M37 8v10h-10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+      </span>
+      <span class="philosophy-card__mark">Rotate or rest.</span>
+      <h3>A field that's always producing is a field going broke</h3>
+      <p>Wheat, then legumes, then a cover crop, then nothing at all for a season. Every plot earns a rest on a fixed rotation, not a guess — the land tells us when it's tired before the yield does.</p>
+    </article>
+    <article class="philosophy-card reveal-up" data-tilt>
+      <span class="philosophy-card__icon" aria-hidden="true">
+        <svg viewBox="0 0 48 48" fill="none"><path d="M10 28c4-14 10-20 14-20s10 6 14 20" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path><path d="M6 34h36" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path></svg>
+      </span>
+      <span class="philosophy-card__mark">Read, don't override.</span>
+      <h3>The weather wins arguments</h3>
+      <p>High-plain Wyoming swings forty degrees in a day. We plant varieties bred for that swing instead of fighting it with more water and more chemical — the input we save is usually the one we didn't need.</p>
+    </article>
+  </div>
+</section>
+
+<!-- ============ SLATE SIGNATURE ============ -->
+<section class="slate-section" id="practices">
+  <div class="section-frame">
+    <p class="section-eyebrow section-eyebrow--light reveal-up">Practices</p>
+    <h2 class="section-title section-title--light reveal-up">What gets marked on a clean slate</h2>
+    <p class="slate-intro reveal-up">Scroll, and watch this season's plot map get chalked in field by field — exactly how it gets planned on the wall of the equipment shed every February.</p>
+  </div>
+
+  <div class="slate-board reveal-up" id="slateBoard">
+    <svg viewBox="0 0 800 520" class="slate-svg" id="slateSvg" role="img" aria-label="Chalk-drawn diagram of the farm's seasonal plot rotation">
+      <g class="chalk-dust" aria-hidden="true">
+        <circle cx="120" cy="250" r="1.4"></circle>
+        <circle cx="640" cy="90" r="1.1"></circle>
+        <circle cx="420" cy="430" r="1.3"></circle>
+        <circle cx="710" cy="300" r="1"></circle>
+        <circle cx="60" cy="460" r="1.2"></circle>
+      </g>
+      <g class="chalk-draw" id="plotA">
+        <rect x="60" y="60" width="280" height="180" rx="2"></rect>
+        <text x="80" y="100" class="chalk-label">PLOT A</text>
+        <text x="80" y="128" class="chalk-sub">Hard red winter wheat</text>
+        <text x="80" y="150" class="chalk-sub">22 acres</text>
+      </g>
+      <g class="chalk-draw" id="plotB">
+        <rect x="380" y="60" width="280" height="180" rx="2"></rect>
+        <text x="400" y="100" class="chalk-label">PLOT B</text>
+        <text x="400" y="128" class="chalk-sub">Lentils + field peas</text>
+        <text x="400" y="150" class="chalk-sub">18 acres</text>
+      </g>
+      <g class="chalk-draw" id="plotC">
+        <rect x="60" y="280" width="280" height="180" rx="2"></rect>
+        <text x="80" y="320" class="chalk-label">PLOT C</text>
+        <text x="80" y="348" class="chalk-sub">Resting — cover crop</text>
+        <text x="80" y="370" class="chalk-sub">19 acres</text>
+      </g>
+      <g class="chalk-draw" id="plotD">
+        <rect x="380" y="280" width="280" height="180" rx="2"></rect>
+        <text x="400" y="320" class="chalk-label">PLOT D</text>
+        <text x="400" y="348" class="chalk-sub">Sunflower trial, year one</text>
+        <text x="400" y="370" class="chalk-sub">11 acres</text>
+      </g>
+      <g class="chalk-draw chalk-draw--arrow" id="arrowAB">
+        <path d="M 340 150 L 378 150" class="chalk-arrow"></path>
+      </g>
+      <g class="chalk-draw chalk-draw--arrow" id="arrowAC">
+        <path d="M 200 242 L 200 278" class="chalk-arrow"></path>
+      </g>
+      <g class="chalk-draw chalk-draw--note" id="noteRotate">
+        <text x="60" y="500" class="chalk-note">Rotation note: Plot A moves to legumes next spring. Plot C re-enters production.</text>
+      </g>
+    </svg>
+  </div>
+
+  <div class="practices-list">
+    <div class="practice-row reveal-up">
+      <span class="practice-row__num" data-count-to="70" data-suffix=" acres">0 acres</span>
+      <span class="practice-row__label">under active rotation across four plots</span>
+    </div>
+    <div class="practice-row reveal-up">
+      <span class="practice-row__num" data-count-to="0">0</span>
+      <span class="practice-row__label">tillage passes on established ground since 2016</span>
+    </div>
+    <div class="practice-row reveal-up">
+      <span class="practice-row__num">1 in 4</span>
+      <span class="practice-row__label">seasons a given plot spends resting under cover</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GALLERY / SEASONS ============ -->
+<section class="gallery" id="gallery">
+  <div class="section-frame">
+    <p class="section-eyebrow reveal-up">The seasons</p>
+    <h2 class="section-title reveal-up">Four scenes, one rotation</h2>
+  </div>
+
+  <div class="gallery-grid">
+    <figure class="gallery-card reveal-up" data-tilt>
+      <svg viewBox="0 0 400 320" class="gallery-scene" aria-hidden="true">
+        <defs>
+          <linearGradient id="g1sky" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#EFD9A8"></stop>
+            <stop offset="100%" stop-color="#F6E7C2"></stop>
+          </linearGradient>
+        </defs>
+        <rect width="400" height="320" fill="url(#g1sky)"></rect>
+        <circle cx="320" cy="70" r="34" fill="#E7AE56" opacity="0.9"></circle>
+        <path d="M0,210 C90,180 170,220 260,195 C320,178 360,195 400,188 L400,320 L0,320 Z" fill="#7A5A1E"></path>
+        <path d="M0,250 C100,235 200,255 400,235 L400,320 L0,320 Z" fill="#4A3818"></path>
+        <g stroke="#C8973F" stroke-width="2" opacity="0.8">
+          <line x1="60" y1="300" x2="64" y2="250"></line>
+          <line x1="90" y1="305" x2="95" y2="245"></line>
+          <line x1="130" y1="300" x2="134" y2="248"></line>
+          <line x1="170" y1="306" x2="176" y2="244"></line>
+          <line x1="210" y1="300" x2="214" y2="250"></line>
+          <line x1="250" y1="304" x2="256" y2="246"></line>
+          <line x1="290" y1="300" x2="294" y2="249"></line>
+          <line x1="330" y1="305" x2="336" y2="245"></line>
+        </g>
+      </svg>
+      <figcaption>
+        <span class="gallery-card__date">April</span>
+        <h3>Dormancy breaks</h3>
+        <p>The first green comes up through last year's stubble on Plot A.</p>
+      </figcaption>
+    </figure>
+
+    <figure class="gallery-card reveal-up" data-tilt>
+      <svg viewBox="0 0 400 320" class="gallery-scene" aria-hidden="true">
+        <defs>
+          <linearGradient id="g2sky" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#D9E4C2"></stop>
+            <stop offset="100%" stop-color="#EDEBD2"></stop>
+          </linearGradient>
+        </defs>
+        <rect width="400" height="320" fill="url(#g2sky)"></rect>
+        <path d="M0,230 C100,200 220,240 400,210 L400,320 L0,320 Z" fill="#5E6B4D"></path>
+        <path d="M0,260 C120,245 260,270 400,250 L400,320 L0,320 Z" fill="#404A33"></path>
+        <g fill="#5E6B4D" opacity="0.9">
+          <circle cx="90" cy="240" r="5"></circle>
+          <circle cx="130" cy="248" r="5"></circle>
+          <circle cx="170" cy="238" r="5"></circle>
+          <circle cx="220" cy="246" r="5"></circle>
+          <circle cx="270" cy="236" r="5"></circle>
+          <circle cx="310" cy="244" r="5"></circle>
+        </g>
+      </svg>
+      <figcaption>
+        <span class="gallery-card__date">June</span>
+        <h3>Legumes fill in</h3>
+        <p>Lentils and field peas hold nitrogen in the ground on Plot B.</p>
+      </figcaption>
+    </figure>
+
+    <figure class="gallery-card reveal-up" data-tilt>
+      <svg viewBox="0 0 400 320" class="gallery-scene" aria-hidden="true">
+        <defs>
+          <linearGradient id="g3sky" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#F3C77B"></stop>
+            <stop offset="100%" stop-color="#E89A4E"></stop>
+          </linearGradient>
+        </defs>
+        <rect width="400" height="320" fill="url(#g3sky)"></rect>
+        <circle cx="80" cy="90" r="40" fill="#F6E2B5"></circle>
+        <path d="M0,220 C110,190 230,230 400,200 L400,320 L0,320 Z" fill="#9C7126"></path>
+        <path d="M0,255 C130,240 270,265 400,245 L400,320 L0,320 Z" fill="#6B4F1A"></path>
+        <g stroke="#F6F1E4" stroke-width="2" opacity="0.5">
+          <line x1="40" y1="300" x2="44" y2="240"></line>
+          <line x1="80" y1="305" x2="86" y2="235"></line>
+          <line x1="120" y1="300" x2="124" y2="238"></line>
+          <line x1="160" y1="306" x2="166" y2="234"></line>
+          <line x1="200" y1="300" x2="204" y2="240"></line>
+          <line x1="240" y1="304" x2="246" y2="236"></line>
+          <line x1="280" y1="300" x2="284" y2="239"></line>
+          <line x1="320" y1="305" x2="326" y2="235"></line>
+          <line x1="360" y1="300" x2="364" y2="240"></line>
+        </g>
+      </svg>
+      <figcaption>
+        <span class="gallery-card__date">August</span>
+        <h3>Harvest week</h3>
+        <p>Wheat comes off Plot A and goes to the co-op elevator within days.</p>
+      </figcaption>
+    </figure>
+
+    <figure class="gallery-card reveal-up" data-tilt>
+      <svg viewBox="0 0 400 320" class="gallery-scene" aria-hidden="true">
+        <defs>
+          <linearGradient id="g4sky" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#C7C2B0"></stop>
+            <stop offset="100%" stop-color="#E0DBC5"></stop>
+          </linearGradient>
+        </defs>
+        <rect width="400" height="320" fill="url(#g4sky)"></rect>
+        <path d="M0,235 C110,215 240,245 400,220 L400,320 L0,320 Z" fill="#8C4A2C"></path>
+        <path d="M0,265 C130,255 270,275 400,260 L400,320 L0,320 Z" fill="#5C2F1A"></path>
+        <g fill="#3A2010" opacity="0.5">
+          <ellipse cx="100" cy="252" rx="22" ry="6"></ellipse>
+          <ellipse cx="180" cy="248" rx="26" ry="6"></ellipse>
+          <ellipse cx="270" cy="254" rx="20" ry="5"></ellipse>
+        </g>
+      </svg>
+      <figcaption>
+        <span class="gallery-card__date">October</span>
+        <h3>Ground goes quiet</h3>
+        <p>Stubble gets mapped and Plot C is logged back into next year's plan.</p>
+      </figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ LAND / MAP ============ -->
+<section class="land" id="land">
+  <div class="land-text reveal-up">
+    <p class="section-eyebrow">The land</p>
+    <h2 class="section-title">High plain, low interference</h2>
+    <p>The farm sits on open ground outside Cheyenne, at elevation, where the wind does half the drying and the winters do most of the pest control. We didn't choose this land for its ease. We chose it because it still behaves like land — not like infrastructure.</p>
+    <dl class="land-stats">
+      <div><dt>Elevation</dt><dd>6,100 ft</dd></div>
+      <div><dt>Founded</dt><dd>Aug 2024</dd></div>
+      <div><dt>Registered</dt><dd>Wyoming LLC</dd></div>
+      <div><dt>County</dt><dd>Laramie County</dd></div>
+    </dl>
+  </div>
+  <div class="land-visual reveal-up" aria-hidden="true">
+    <svg viewBox="0 0 500 500" class="topo">
+      <circle cx="250" cy="250" r="60"></circle>
+      <circle cx="250" cy="250" r="120"></circle>
+      <circle cx="250" cy="250" r="180"></circle>
+      <circle cx="250" cy="250" r="240"></circle>
+      <circle class="topo-marker" cx="250" cy="250" r="4"></circle>
+      <text x="250" y="280" class="topo-pin" text-anchor="middle">N41°08′ W104°48′</text>
+    </svg>
+  </div>
+</section>
+
+<!-- ============ SEASON / TIMELINE ============ -->
+<section class="season" id="season-timeline">
+  <div class="section-frame">
+    <p class="section-eyebrow reveal-up">This season</p>
+    <h2 class="section-title reveal-up">2026, field by field</h2>
+  </div>
+  <div class="season-track">
+    <div class="season-stop reveal-up">
+      <span class="season-stop__date">Mar</span>
+      <p>Soil tests come back. Cover crop on Plot C gets terminated and left to break down in place.</p>
+    </div>
+    <div class="season-stop reveal-up">
+      <span class="season-stop__date">Apr</span>
+      <p>Winter wheat on Plot A breaks dormancy. Lentils go into Plot B as soon as the frost risk clears.</p>
+    </div>
+    <div class="season-stop reveal-up">
+      <span class="season-stop__date">Jun</span>
+      <p>First sunflower trial on Plot D — eleven acres, three varieties, watching for what handles the wind.</p>
+    </div>
+    <div class="season-stop reveal-up">
+      <span class="season-stop__date">Aug</span>
+      <p>Wheat harvest. Grain goes to the co-op elevator in Cheyenne within the week.</p>
+    </div>
+    <div class="season-stop reveal-up">
+      <span class="season-stop__date">Oct</span>
+      <p>Plot C re-enters rotation planning. Plot A's stubble gets mapped for next year's legume rest.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ VISIT / CONTACT ============ -->
+<section class="visit" id="visit">
+  <div class="visit-inner">
+    <p class="section-eyebrow section-eyebrow--light reveal-up">Visit</p>
+    <h2 class="section-title section-title--light reveal-up">Come see the ground for yourself</h2>
+    <p class="visit-copy reveal-up">We take visitors by appointment, mostly during planting and harvest when there's actually something to look at. Reach out and we'll find a day that works.</p>
+
+    <form class="visit-form reveal-up" id="visitForm">
+      <div class="form-row">
+        <label for="visitName">Name</label>
+        <input type="text" id="visitName" name="name" placeholder="Your name" required>
+      </div>
+      <div class="form-row">
+        <label for="visitEmail">Email</label>
+        <input type="email" id="visitEmail" name="email" placeholder="you@example.com" required>
+      </div>
+      <div class="form-row">
+        <label for="visitMsg">What brings you out</label>
+        <textarea id="visitMsg" name="message" rows="4" placeholder="Tell us what you'd like to see"></textarea>
+      </div>
+      <button type="submit" class="btn btn--primary btn--wide" data-magnetic><span>Send the request</span></button>
+      <p class="form-note" id="formNote" role="status"></p>
+    </form>
+
+    <div class="visit-direct reveal-up">
+      <div>
+        <span class="visit-direct__label">Mail</span>
+        <span>hello@tabularasafarms.com</span>
+      </div>
+      <div>
+        <span class="visit-direct__label">Office</span>
+        <span>Cheyenne, Wyoming</span>
+      </div>
+      <div>
+        <span class="visit-direct__label">Filed</span>
+        <span>Wyoming Secretary of State, Aug 20 2024</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <span class="brand-mark__name">Tabula&nbsp;Rasa</span>
+      <span class="brand-mark__sub">Farms</span>
+    </div>
+    <nav class="footer-nav" aria-label="Footer">
+      <a href="#philosophy">The ground</a>
+      <a href="#practices">Practices</a>
+      <a href="#gallery">The seasons</a>
+      <a href="#land">The land</a>
+      <a href="#visit">Visit</a>
+    </nav>
+    <p class="footer-legal">Tabula Rasa Farms LLC · A Wyoming limited liability company · Filed Aug 20, 2024</p>
+  </div>
+</footer>
+
+<a href="#top" class="back-to-top" id="backToTop" aria-label="Back to top">↑</a>
+
+<script src="js/main.js"></script>
+</body>
+</html>

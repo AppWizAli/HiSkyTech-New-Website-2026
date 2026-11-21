@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Send Email</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 50px;
+        }
+        .send-email-btn {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .send-email-btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <form action="mails.php" method="post">
+        <button type="submit" class="send-email-btn">Send Email</button>
+    </form>
+
+    <?php
+    if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+        $to = 'shahbazhaider0543@gmail.com'; // Recipient's email
+        $subject = 'Test Email';
+        $message = 'This is a test email sent from your PHP script.';
+        $headers = 'From:raheelb9292@gmail.com' . "\r\n" . // Replace with the sender's email
+                   'Reply-To: shahbazhaider0543@gmail.com . "\r\n" . // Replace with the sender's email
+                   'X-Mailer: PHP/' . phpversion();
+
+        // Send email
+        if (mail($to, $subject, $message, $headers)) {
+            echo '<p>Email sent successfully!</p>';
+        } else {
+            echo '<p>Failed to send email.</p>';
+        }
+    }
+    ?>
+
+</body>
+</html>

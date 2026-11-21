@@ -1,0 +1,569 @@
+1:"$Sreact.fragment"
+2:I[39756,["/convertly/_next/static/chunks/01xlw8hd842-c.js","/convertly/_next/static/chunks/0d3shmwh5_nmn.js"],"default"]
+3:I[37457,["/convertly/_next/static/chunks/01xlw8hd842-c.js","/convertly/_next/static/chunks/0d3shmwh5_nmn.js"],"default"]
+5:I[97367,["/convertly/_next/static/chunks/01xlw8hd842-c.js","/convertly/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+9:I[97367,["/convertly/_next/static/chunks/01xlw8hd842-c.js","/convertly/_next/static/chunks/0d3shmwh5_nmn.js"],"ViewportBoundary"]
+b:I[97367,["/convertly/_next/static/chunks/01xlw8hd842-c.js","/convertly/_next/static/chunks/0d3shmwh5_nmn.js"],"MetadataBoundary"]
+d:I[68027,["/convertly/_next/static/chunks/01xlw8hd842-c.js","/convertly/_next/static/chunks/0d3shmwh5_nmn.js"],"default",1]
+:HL["/convertly/_next/static/chunks/043qo21.fopnq.css","style"]
+:HL["/convertly/_next/static/media/fba5a26ea33df6a3-s.p.0eehd8tgys7nv.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700","style"]
+0:{"P":null,"c":["","tools","image-to-pdf",""],"q":"","i":false,"f":[[["",{"children":["tools",{"children":[["slug","image-to-pdf","d",null],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/convertly/_next/static/chunks/043qo21.fopnq.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/convertly/_next/static/chunks/01xlw8hd842-c.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/convertly/_next/static/chunks/0d3shmwh5_nmn.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":["$","link",null,{"rel":"stylesheet","href":"https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700"}]}],["$","body",null,{"className":"plus_jakarta_sans_9d62cbd1-module__rAe8UW__variable","children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L4",[["$","script","script-0",{"src":"/convertly/_next/static/chunks/0ihmsmv_dx_om.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/convertly/_next/static/chunks/11~prlxwtxd9j.js","async":true,"nonce":"$undefined"}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],{},null,false,null]},null,false,"$@8"]},null,false,"$@8"]},null,false,null],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$La"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$6",null,{"name":"Next.Metadata","children":"$Lc"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$d",[["$","link","0",{"rel":"stylesheet","href":"/convertly/_next/static/chunks/043qo21.fopnq.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"jSYbyA76GCXtzYn4ppmOC"}
+e:[]
+8:"$We"
+f:I[79520,["/convertly/_next/static/chunks/01xlw8hd842-c.js","/convertly/_next/static/chunks/0d3shmwh5_nmn.js","/convertly/_next/static/chunks/0ihmsmv_dx_om.js","/convertly/_next/static/chunks/11~prlxwtxd9j.js"],""]
+10:I[22016,["/convertly/_next/static/chunks/01xlw8hd842-c.js","/convertly/_next/static/chunks/0d3shmwh5_nmn.js","/convertly/_next/static/chunks/0ihmsmv_dx_om.js","/convertly/_next/static/chunks/11~prlxwtxd9j.js"],""]
+11:I[93539,["/convertly/_next/static/chunks/01xlw8hd842-c.js","/convertly/_next/static/chunks/0d3shmwh5_nmn.js","/convertly/_next/static/chunks/0ihmsmv_dx_om.js","/convertly/_next/static/chunks/11~prlxwtxd9j.js"],"ThemeToggle"]
+4:[["$","$Lf",null,{"id":"adsterra-secondary-overlay","src":"https://pl30122847.effectivecpmnetwork.com/a5/6a/84/a56a847b48952385144f632c4281469f.js","strategy":"afterInteractive","data-cfasync":"false"}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"SoftwareApplication\",\"name\":\"Image to PDF - Convertly\",\"applicationCategory\":\"UtilitiesApplication\",\"operatingSystem\":\"Web\",\"description\":\"Turn JPG, PNG, and WebP files into one polished PDF. Use Image to PDF directly in your browser with Convertly.\",\"offers\":{\"@type\":\"Offer\",\"price\":\"0\",\"priceCurrency\":\"USD\"},\"url\":\"https://hiskytechs.com/convertly/tools/image-to-pdf\"}"}}],["$","header",null,{"className":"site-header","children":[["$","$L10",null,{"className":"brand","href":"/","children":["$","span",null,{"children":"Convertly"}]}],["$","nav",null,{"className":"site-nav","children":[["$","$L10",null,{"href":"/","children":"Home"}],["$","$L10",null,{"className":"is-active","href":"/#tools","children":"Tools"}],["$","$L10",null,{"href":"/#categories","children":"Categories"}],["$","$L10",null,{"href":"/#workflows","children":"Workflows"}],["$","$L10",null,{"href":"/#faq","children":"FAQ"}]]}],["$","div",null,{"className":"header-actions","children":["$","$L11",null,{}]}]]}],["$","main",null,{"className":"page-shell tool-page-shell","children":[[["$","section",null,{"className":"tool-workspace","id":"image-to-pdf-tool","children":[["$","div",null,{"className":"tool-workspace-copy","children":[["$","span",null,{"className":"eyebrow","children":"Live tool"}],["$","h1",null,{"children":"Image to PDF"}],["$","p",null,{"children":"Fast image to PDF conversion with no signup, no login, and no extra steps. Upload your files, convert instantly, and download in seconds."}],["$","div",null,{"className":"tool-copy-banner","children":[["$","div",null,{"children":[["$","strong",null,{"children":"Private, quick, and simple to use"}],["$","span",null,{"children":"Turn JPG, PNG, and WebP images into one clean PDF right in your browser with a smooth, hassle-free workflow."}]]}],["$","span",null,{"className":"material-symbols-outlined","children":"auto_awesome"}]]}],["$","div",null,{"className":"tool-copy-chips","children":[["$","span",null,{"children":"Fast convert"}],["$","span",null,{"children":"No signup"}],["$","span",null,{"children":"No login"}]]}],["$","div",null,{"className":"tool-stats","children":[["$","div",null,{"children":[["$","strong",null,{"id":"image-to-pdf-stat-count","children":"0"}],["$","span",null,{"children":"Images queued"}]]}],["$","div",null,{"children":[["$","strong",null,{"id":"image-to-pdf-stat-size","children":"0 KB"}],["$","span",null,{"children":"Total upload size"}]]}],["$","div",null,{"children":[["$","strong",null,{"id":"image-to-pdf-stat-pages","children":"0"}],["$","span",null,{"children":"PDF pages ready"}]]}]]}]]}],["$","div",null,{"className":"tool-workspace-panel","children":[["$","input",null,{"accept":"image/*,.png,.jpg,.jpeg,.webp","className":"sr-only-input","id":"image-to-pdf-input","multiple":true,"type":"file"}],["$","div",null,{"className":"tool-dropzone","id":"image-to-pdf-dropzone","children":[["$","span",null,{"className":"material-symbols-outlined","children":"imagesmode"}],["$","h2",null,{"children":"Drop images here"}],["$","p",null,{"children":"Choose files below or drag them into this area."}],["$","span",null,{"className":"tool-dropzone-hint","children":"Supports JPG, PNG, and WebP"}],["$","label",null,{"className":"primary-action tool-inline-action tool-dropzone-action","htmlFor":"image-to-pdf-input","children":"Choose Files"}],["$","span",null,{"className":"tool-picker-summary","id":"image-to-pdf-picker-summary","children":"No files selected yet."}]]}],["$","div",null,{"className":"tool-progress-card","hidden":true,"id":"image-to-pdf-progress-card","children":[["$","div",null,{"className":"tool-progress-head","children":[["$","strong",null,{"children":"Progress"}],["$","span",null,{"id":"image-to-pdf-progress-value","children":"0%"}]]}],["$","div",null,{"className":"tool-progress-track","children":["$","span",null,{"id":"image-to-pdf-progress-bar"}]}],["$","p",null,{"id":"image-to-pdf-progress-label","children":"Waiting for files"}]]}],["$","div",null,{"className":"tool-action-row","children":[["$","button",null,{"className":"primary-action tool-inline-action","disabled":true,"id":"image-to-pdf-convert","type":"button","children":"Convert to PDF"}],"$L12"]}],"$L13","$L14","$L15"]}],"$L16"]}],"$L17","$L18","$L19","$L1a","$L1b"],"$L1c"]}],"$L1d"]
+1f:I[90575,["/convertly/_next/static/chunks/01xlw8hd842-c.js","/convertly/_next/static/chunks/0d3shmwh5_nmn.js","/convertly/_next/static/chunks/0ihmsmv_dx_om.js","/convertly/_next/static/chunks/11~prlxwtxd9j.js"],"AdsterraBanner"]
+12:["$","button",null,{"className":"ghost-action","hidden":true,"id":"image-to-pdf-clear","type":"button","children":"Clear all"}]
+13:["$","p",null,{"className":"tool-feedback info","id":"image-to-pdf-status","children":"Select one or more images to begin."}]
+14:["$","div",null,{"className":"tool-result-card","hidden":true,"id":"image-to-pdf-result-card","children":[["$","div",null,{"children":[["$","strong",null,{"children":"Download panel"}],["$","span",null,{"id":"image-to-pdf-download-meta","children":"Your PDF download button will appear here after conversion."}]]}],["$","a",null,{"className":"primary-action tool-inline-action","hidden":true,"id":"image-to-pdf-download","children":"Download PDF"}]]}]
+15:["$","div",null,{"hidden":true,"id":"image-to-pdf-queue-section","children":[["$","div",null,{"className":"tool-queue-header","children":[["$","h3",null,{"children":"Selected images"}],["$","span",null,{"className":"tool-queue-note","id":"image-to-pdf-count-note","children":"0 files"}]]}],["$","div",null,{"className":"tool-empty-state","id":"image-to-pdf-empty","children":[["$","span",null,{"className":"material-symbols-outlined","children":"folder_open"}],["$","p",null,{"children":"Your image list will appear here once you add files."}]]}],["$","div",null,{"className":"tool-image-grid","hidden":true,"id":"image-to-pdf-list"}]]}]
+1e:T3bc6,
+(() => {
+  const root = document.getElementById("image-to-pdf-tool");
+
+  if (!root || root.dataset.ready === "true") {
+    return;
+  }
+
+  root.dataset.ready = "true";
+
+  const input = document.getElementById("image-to-pdf-input");
+  const dropzone = document.getElementById("image-to-pdf-dropzone");
+  const pickerSummary = document.getElementById("image-to-pdf-picker-summary");
+  const convertButton = document.getElementById("image-to-pdf-convert");
+  const clearButton = document.getElementById("image-to-pdf-clear");
+  const status = document.getElementById("image-to-pdf-status");
+  const progressBar = document.getElementById("image-to-pdf-progress-bar");
+  const progressValue = document.getElementById("image-to-pdf-progress-value");
+  const progressLabel = document.getElementById("image-to-pdf-progress-label");
+  const statCount = document.getElementById("image-to-pdf-stat-count");
+  const statSize = document.getElementById("image-to-pdf-stat-size");
+  const statPages = document.getElementById("image-to-pdf-stat-pages");
+  const countNote = document.getElementById("image-to-pdf-count-note");
+  const emptyState = document.getElementById("image-to-pdf-empty");
+  const list = document.getElementById("image-to-pdf-list");
+  const queueSection = document.getElementById("image-to-pdf-queue-section");
+  const downloadLink = document.getElementById("image-to-pdf-download");
+  const downloadMeta = document.getElementById("image-to-pdf-download-meta");
+
+  if (
+    !input ||
+    !dropzone ||
+    !pickerSummary ||
+    !convertButton ||
+    !clearButton ||
+    !status ||
+    !progressBar ||
+    !progressValue ||
+    !progressLabel ||
+    !statCount ||
+    !statSize ||
+    !statPages ||
+    !countNote ||
+    !emptyState ||
+    !list ||
+    !queueSection ||
+    !downloadLink ||
+    !downloadMeta
+  ) {
+    return;
+  }
+
+  let items = [];
+  let isConverting = false;
+  let pdfUrl = null;
+
+  function createId() {
+    if (globalThis.crypto && typeof globalThis.crypto.randomUUID === "function") {
+      return globalThis.crypto.randomUUID();
+    }
+
+    return "file-" + Date.now() + "-" + Math.random().toString(36).slice(2, 10);
+  }
+
+  function formatBytes(size) {
+    if (size < 1024 * 1024) {
+      return (size / 1024).toFixed(1) + " KB";
+    }
+
+    return (size / (1024 * 1024)).toFixed(2) + " MB";
+  }
+
+  function setStatus(message, tone) {
+    status.textContent = message;
+    status.className = "tool-feedback " + tone;
+  }
+
+  function setProgress(percent, label) {
+    progressBar.style.width = percent + "%";
+    progressValue.textContent = percent + "%";
+    progressLabel.textContent = label;
+  }
+
+  function revokePdfUrl() {
+    if (pdfUrl) {
+      URL.revokeObjectURL(pdfUrl);
+      pdfUrl = null;
+    }
+  }
+
+  function resetDownload() {
+    revokePdfUrl();
+    downloadLink.hidden = true;
+    downloadLink.removeAttribute("href");
+    downloadMeta.textContent = "Your PDF download button will appear here after conversion.";
+    statPages.textContent = "0";
+    const resultCard = document.getElementById("image-to-pdf-result-card");
+
+    if (resultCard) {
+      resultCard.hidden = true;
+    }
+  }
+
+  function isSupportedImage(file) {
+    if (!file) {
+      return false;
+    }
+
+    if (typeof file.type === "string" && file.type.startsWith("image/")) {
+      return true;
+    }
+
+    return /\.(png|jpe?g|webp)$/i.test(file.name);
+  }
+
+  function renderStats() {
+    const totalSize = items.reduce((sum, item) => sum + item.file.size, 0);
+
+    statCount.textContent = String(items.length);
+    statSize.textContent = items.length ? formatBytes(totalSize) : "0 KB";
+    countNote.textContent = items.length
+      ? items.length + (items.length === 1 ? " file selected" : " files selected")
+      : "0 files";
+  }
+
+  function renderPickerSummary() {
+    if (!items.length) {
+      pickerSummary.textContent = "No files selected yet.";
+      return;
+    }
+
+    if (items.length === 1) {
+      pickerSummary.textContent = items[0].file.name;
+      return;
+    }
+
+    pickerSummary.textContent = items.length + " images selected";
+  }
+
+  function renderList() {
+    list.innerHTML = "";
+
+    if (!items.length) {
+      queueSection.hidden = true;
+      emptyState.hidden = false;
+      list.hidden = true;
+      clearButton.hidden = true;
+      return;
+    }
+
+    queueSection.hidden = false;
+    emptyState.hidden = true;
+    list.hidden = false;
+    clearButton.hidden = false;
+
+    items.forEach((item, index) => {
+      const card = document.createElement("article");
+      card.className = "tool-image-card";
+
+      const image = document.createElement("img");
+      image.alt = item.file.name;
+      image.src = item.previewUrl;
+
+      const meta = document.createElement("div");
+      meta.className = "tool-image-meta";
+
+      const title = document.createElement("strong");
+      title.textContent = index + 1 + ". " + item.file.name;
+
+      const size = document.createElement("span");
+      size.textContent = formatBytes(item.file.size);
+
+      const removeButton = document.createElement("button");
+      removeButton.className = "ghost-action danger";
+      removeButton.type = "button";
+      removeButton.dataset.removeId = item.id;
+      removeButton.textContent = "Remove";
+
+      meta.append(title, size);
+      card.append(image, meta, removeButton);
+      list.append(card);
+    });
+  }
+
+  function render() {
+    renderStats();
+    renderPickerSummary();
+    renderList();
+    convertButton.disabled = isConverting || items.length === 0;
+  }
+
+  function clearItems() {
+    items.forEach((item) => URL.revokeObjectURL(item.previewUrl));
+    items = [];
+    resetDownload();
+    setProgress(0, "Waiting for files");
+    setStatus("Select one or more images to begin.", "info");
+    render();
+  }
+
+  function appendFiles(fileList) {
+    const nextFiles = Array.from(fileList || []);
+
+    if (!nextFiles.length) {
+      return;
+    }
+
+    const invalidFile = nextFiles.find((file) => !isSupportedImage(file));
+
+    if (invalidFile) {
+      setStatus("Please choose JPG, PNG, or WebP images only.", "error");
+      return;
+    }
+
+    resetDownload();
+
+    const nextItems = nextFiles.map((file) => ({
+      id: createId(),
+      file,
+      previewUrl: URL.createObjectURL(file)
+    }));
+
+    items = items.concat(nextItems);
+    const progressCard = document.getElementById("image-to-pdf-progress-card");
+
+    if (progressCard) {
+      progressCard.hidden = false;
+    }
+
+    setProgress(0, "Files selected and ready");
+    setStatus(
+      items.length + (items.length === 1 ? " image is ready to convert." : " images are ready to convert."),
+      "info"
+    );
+    render();
+  }
+
+  function removeItemById(id) {
+    const removedItem = items.find((item) => item.id === id);
+
+    if (removedItem) {
+      URL.revokeObjectURL(removedItem.previewUrl);
+    }
+
+    items = items.filter((item) => item.id !== id);
+    resetDownload();
+    setProgress(0, items.length ? "Files selected and ready" : "Waiting for files");
+    setStatus(
+      items.length
+        ? items.length + (items.length === 1 ? " image is ready to convert." : " images are ready to convert.")
+        : "Select one or more images to begin.",
+      "info"
+    );
+    render();
+  }
+
+  function readAsDataUrl(file) {
+    return new Promise((resolve, reject) => {
+      const reader = new FileReader();
+
+      reader.onload = () => {
+        if (typeof reader.result === "string") {
+          resolve(reader.result);
+          return;
+        }
+
+        reject(new Error("The selected file could not be read."));
+      };
+
+      reader.onerror = () => reject(new Error("The selected file could not be read."));
+      reader.readAsDataURL(file);
+    });
+  }
+
+  function loadImage(src, fileName) {
+    return new Promise((resolve, reject) => {
+      const image = new Image();
+      image.onload = () => resolve(image);
+      image.onerror = () => reject(new Error("\"" + fileName + "\" could not be loaded as an image."));
+      image.src = src;
+    });
+  }
+
+  function dataUrlToBytes(dataUrl) {
+    const base64 = dataUrl.split(",")[1] || "";
+    const binary = atob(base64);
+    const bytes = new Uint8Array(binary.length);
+
+    for (let index = 0; index < binary.length; index += 1) {
+      bytes[index] = binary.charCodeAt(index);
+    }
+
+    return bytes;
+  }
+
+  async function fileToPdfPage(file) {
+    const sourceDataUrl = await readAsDataUrl(file);
+    const image = await loadImage(sourceDataUrl, file.name);
+    const maxDimension = 1600;
+    const scale = Math.min(1, maxDimension / Math.max(image.naturalWidth, image.naturalHeight));
+    const width = Math.max(1, Math.round(image.naturalWidth * scale));
+    const height = Math.max(1, Math.round(image.naturalHeight * scale));
+    const canvas = document.createElement("canvas");
+    canvas.width = width;
+    canvas.height = height;
+
+    const context = canvas.getContext("2d");
+
+    if (!context) {
+      throw new Error("Canvas is not available in this browser.");
+    }
+
+    context.fillStyle = "#ffffff";
+    context.fillRect(0, 0, width, height);
+    context.drawImage(image, 0, 0, width, height);
+
+    return {
+      width,
+      height,
+      jpegBytes: dataUrlToBytes(canvas.toDataURL("image/jpeg", 0.92))
+    };
+  }
+
+  function ascii(value) {
+    return new TextEncoder().encode(value);
+  }
+
+  function concatBytes(parts) {
+    const totalLength = parts.reduce((sum, part) => sum + part.length, 0);
+    const output = new Uint8Array(totalLength);
+    let offset = 0;
+
+    parts.forEach((part) => {
+      output.set(part, offset);
+      offset += part.length;
+    });
+
+    return output;
+  }
+
+  function buildPdf(pages) {
+    const parts = [];
+    const offsets = [0];
+    let length = 0;
+
+    const push = (bytes) => {
+      parts.push(bytes);
+      length += bytes.length;
+    };
+
+    const pushText = (text) => {
+      push(ascii(text));
+    };
+
+    pushText("%PDF-1.3\n%Convertly\n");
+
+    const pageReferences = pages.map((_, index) => 3 + index * 3 + " 0 R");
+    const totalObjects = 2 + pages.length * 3;
+
+    offsets[1] = length;
+    pushText("1 0 obj\n<< /Type /Catalog /Pages 2 0 R >>\nendobj\n");
+
+    offsets[2] = length;
+    pushText("2 0 obj\n<< /Type /Pages /Count " + pages.length + " /Kids [" + pageReferences.join(" ") + "] >>\nendobj\n");
+
+    pages.forEach((page, index) => {
+      const pageObject = 3 + index * 3;
+      const contentObject = pageObject + 1;
+      const imageObject = pageObject + 2;
+      const imageName = "/Im" + (index + 1);
+      const contentStream = "q\n" + page.width + " 0 0 " + page.height + " 0 0 cm\n" + imageName + " Do\nQ";
+      const contentBytes = ascii(contentStream);
+
+      offsets[pageObject] = length;
+      pushText(
+        pageObject +
+          " 0 obj\n<< /Type /Page /Parent 2 0 R /MediaBox [0 0 " +
+          page.width +
+          " " +
+          page.height +
+          "] /Resources << /XObject << " +
+          imageName +
+          " " +
+          imageObject +
+          " 0 R >> >> /Contents " +
+          contentObject +
+          " 0 R >>\nendobj\n"
+      );
+
+      offsets[contentObject] = length;
+      pushText(contentObject + " 0 obj\n<< /Length " + contentBytes.length + " >>\nstream\n");
+      push(contentBytes);
+      pushText("\nendstream\nendobj\n");
+
+      offsets[imageObject] = length;
+      pushText(
+        imageObject +
+          " 0 obj\n<< /Type /XObject /Subtype /Image /Width " +
+          page.width +
+          " /Height " +
+          page.height +
+          " /ColorSpace /DeviceRGB /BitsPerComponent 8 /Filter /DCTDecode /Length " +
+          page.jpegBytes.length +
+          " >>\nstream\n"
+      );
+      push(page.jpegBytes);
+      pushText("\nendstream\nendobj\n");
+    });
+
+    const xrefOffset = length;
+
+    pushText("xref\n0 " + (totalObjects + 1) + "\n");
+    pushText("0000000000 65535 f \n");
+
+    for (let objectIndex = 1; objectIndex <= totalObjects; objectIndex += 1) {
+      pushText(String(offsets[objectIndex] || 0).padStart(10, "0") + " 00000 n \n");
+    }
+
+    pushText("trailer\n<< /Size " + (totalObjects + 1) + " /Root 1 0 R >>\nstartxref\n" + xrefOffset + "\n%%EOF");
+
+    return concatBytes(parts);
+  }
+
+  function buildPdfFileName() {
+    if (items.length === 1) {
+      return items[0].file.name.replace(/\.[^.]+$/, "") + ".pdf";
+    }
+
+    return "converted-images.pdf";
+  }
+
+  async function handleConvert() {
+    if (isConverting) {
+      return;
+    }
+
+    if (!items.length) {
+      setStatus("Please choose at least one image first.", "error");
+      return;
+    }
+
+    isConverting = true;
+    convertButton.disabled = true;
+    setStatus("Preparing your images...", "info");
+    setProgress(5, "Preparing files");
+
+    try {
+      const pages = [];
+
+      for (let index = 0; index < items.length; index += 1) {
+        const item = items[index];
+        const progressBase = Math.round((index / items.length) * 70);
+        setStatus("Processing " + item.file.name + "...", "info");
+        setProgress(10 + progressBase, "Reading image " + (index + 1) + " of " + items.length);
+        pages.push(await fileToPdfPage(item.file));
+      }
+
+      setStatus("Building PDF document...", "info");
+      setProgress(88, "Building PDF");
+
+      const pdfBytes = buildPdf(pages);
+      const pdfBlob = new Blob([pdfBytes], { type: "application/pdf" });
+      const fileName = buildPdfFileName();
+
+      revokePdfUrl();
+      pdfUrl = URL.createObjectURL(pdfBlob);
+
+      downloadLink.href = pdfUrl;
+      downloadLink.download = fileName;
+      downloadLink.hidden = false;
+      downloadMeta.textContent = pages.length + (pages.length === 1 ? " page ready to download." : " pages ready to download.");
+      statPages.textContent = String(pages.length);
+
+      const resultCard = document.getElementById("image-to-pdf-result-card");
+
+      if (resultCard) {
+        resultCard.hidden = false;
+      }
+
+      setProgress(100, "PDF ready");
+      setStatus(fileName + " is ready. Click Download PDF.", "success");
+    } catch (error) {
+      const message = error instanceof Error ? error.message : "Please try another image.";
+      resetDownload();
+      setProgress(0, "Conversion failed");
+      setStatus("Conversion failed: " + message, "error");
+    } finally {
+      isConverting = false;
+      convertButton.disabled = items.length === 0;
+    }
+  }
+
+  input.addEventListener("change", (event) => {
+    appendFiles(event.target.files);
+    event.target.value = "";
+  });
+
+  dropzone.addEventListener("dragover", (event) => {
+    event.preventDefault();
+    dropzone.classList.add("is-dragging");
+  });
+
+  dropzone.addEventListener("dragleave", () => {
+    dropzone.classList.remove("is-dragging");
+  });
+
+  dropzone.addEventListener("drop", (event) => {
+    event.preventDefault();
+    dropzone.classList.remove("is-dragging");
+    appendFiles(event.dataTransfer.files);
+  });
+
+  convertButton.addEventListener("click", handleConvert);
+  clearButton.addEventListener("click", clearItems);
+
+  list.addEventListener("click", (event) => {
+    const target = event.target;
+
+    if (!(target instanceof HTMLElement)) {
+      return;
+    }
+
+    const removeId = target.dataset.removeId;
+
+    if (removeId) {
+      removeItemById(removeId);
+    }
+  });
+
+  render();
+  resetDownload();
+  setProgress(0, "Waiting for files");
+  setStatus("Select one or more images to begin.", "info");
+})();
+16:["$","script",null,{"dangerouslySetInnerHTML":{"__html":"$1e"}}]
+17:["$","$L1f",null,{"containerId":"container-6bc91ccc0b65595a88d8cd9be37834b3","scriptSrc":"https://pl30122845.effectivecpmnetwork.com/6bc91ccc0b65595a88d8cd9be37834b3/invoke.js","title":"Recommended sponsor","description":"This ad appears after the main tool workspace so it stays distinct from uploads, conversions, and downloads."}]
+18:["$","section",null,{"className":"tool-highlights-section","children":["$","div",null,{"className":"tool-highlights-grid","children":[["$","article","High Quality",{"className":"tool-highlight-card","children":[["$","span",null,{"className":"material-symbols-outlined tone-primary","children":"high_quality"}],["$","div",null,{"children":[["$","h3",null,{"children":"High Quality"}],["$","p",null,{"children":"Keeps your images crisp and clear in the final PDF."}]]}]]}],["$","article","Privacy",{"className":"tool-highlight-card","children":[["$","span",null,{"className":"material-symbols-outlined tone-primary","children":"privacy_tip"}],["$","div",null,{"children":[["$","h3",null,{"children":"Privacy"}],["$","p",null,{"children":"Your files stay in the browser during conversion."}]]}]]}],["$","article","Fast Processing",{"className":"tool-highlight-card","children":[["$","span",null,{"className":"material-symbols-outlined tone-primary","children":"bolt"}],["$","div",null,{"children":[["$","h3",null,{"children":"Fast Processing"}],["$","p",null,{"children":"Built for quick image-to-PDF conversion without extra steps."}]]}]]}]]}]}]
+19:["$","section",null,{"className":"tool-how-section","children":[["$","div",null,{"className":"section-heading section-centered","children":["$","h2",null,{"children":"How It Works"}]}],["$","div",null,{"className":"tool-how-grid","children":[["$","article","1",{"className":"tool-how-card","children":[["$","span",null,{"className":"tool-step-badge","children":"1"}],["$","h3",null,{"children":"Upload"}],["$","p",null,{"children":"Select one or more images directly from the upload box."}]]}],["$","article","2",{"className":"tool-how-card","children":[["$","span",null,{"className":"tool-step-badge","children":"2"}],["$","h3",null,{"children":"Arrange & Edit"}],["$","p",null,{"children":"Review your selected images and remove anything you do not need."}]]}],["$","article","3",{"className":"tool-how-card","children":[["$","span",null,{"className":"tool-step-badge","children":"3"}],["$","h3",null,{"children":"Download"}],["$","p",null,{"children":"Convert the images and save the generated PDF to your device."}]]}]]}]]}]
+1a:["$","section",null,{"className":"tool-benefits-section","children":[["$","div",null,{"className":"tool-benefits-copy","children":[["$","div",null,{"className":"section-heading","children":["$","h2",null,{"children":"Why use Convertly for Image to PDF?"}]}],["$","div",null,{"className":"tool-benefit-list","children":[["$","div","Unlimited image-to-PDF conversions for everyday work.",{"className":"tool-benefit-item","children":[["$","span",null,{"className":"material-symbols-outlined tone-primary","children":"check_circle"}],["$","p",null,{"children":"Unlimited image-to-PDF conversions for everyday work."}]]}],["$","div","Upload JPG, PNG, and WebP images in one place.",{"className":"tool-benefit-item","children":[["$","span",null,{"className":"material-symbols-outlined tone-primary","children":"check_circle"}],["$","p",null,{"children":"Upload JPG, PNG, and WebP images in one place."}]]}],["$","div","Private browser-side handling designed for quick results.",{"className":"tool-benefit-item","children":[["$","span",null,{"className":"material-symbols-outlined tone-primary","children":"check_circle"}],["$","p",null,{"children":"Private browser-side handling designed for quick results."}]]}]]}]]}],["$","div",null,{"className":"tool-benefits-visual","children":["$","div",null,{"className":"tool-device-mockup","children":["$","div",null,{"className":"tool-device-screen","children":[["$","div",null,{"className":"tool-device-sidebar","children":[["$","span",null,{}],["$","span",null,{}],["$","span",null,{}]]}],["$","div",null,{"className":"tool-device-content","children":[["$","div",null,{"className":"tool-device-toolbar"}],["$","div",null,{"className":"tool-device-file-card","children":[["$","strong",null,{"children":"image-to-pdf.pdf"}],["$","span",null,{"children":"Ready to download"}]]}],["$","div",null,{"className":"tool-device-lines","children":[["$","span",null,{}],["$","span",null,{}],["$","span",null,{}]]}]]}]]}]}]}]]}]
+1b:["$","section",null,{"className":"sponsored-offer-section","aria-label":"Sponsored offer","children":["$","div",null,{"className":"sponsored-offer-card","children":[["$","div",null,{"children":[["$","span",null,{"className":"eyebrow","children":"Sponsored"}],["$","h2",null,{"children":"Sponsored offer"}],["$","p",null,{"children":"This external sponsor link is clearly marked and kept away from the tool controls to avoid misleading clicks."}]]}],["$","div",null,{"className":"sponsored-offer-actions","children":[["$","a",null,{"className":"secondary-action sponsored-offer-link","href":"https://www.effectivecpmnetwork.com/my8k8wrrh3?key=177132b5c9620e88d066efb6d3ee7e39","rel":"nofollow sponsored noopener","target":"_blank","children":"Open sponsored offer"}],["$","span",null,{"className":"sponsored-offer-note","children":"Opens an advertiser page in a new tab."}]]}]]}]}]
+1c:["$","section",null,{"className":"related-tools-section","children":[["$","div",null,{"className":"section-heading","children":[["$","h2",null,{"children":"Related tools"}],["$","p",null,{"children":"Move into the next workflow quickly without going back through the homepage."}]]}],["$","div",null,{"className":"tools-grid","children":[["$","$L10","pdf-to-word",{"className":"tool-card-link","href":"/tools/pdf-to-word","children":["$","article",null,{"className":"tool-card","children":[["$","span",null,{"className":"material-symbols-outlined tone-secondary","children":"description"}],["$","h3",null,{"children":"PDF to Word"}],["$","p",null,{"children":"Export PDFs into Word documents with layout preserved."}],["$","div",null,{"className":"tool-meta","children":[["$","span",null,{"children":"Document conversion"}],["$","span",null,{"className":"material-symbols-outlined tone-secondary","children":"arrow_forward"}]]}]]}]}],["$","$L10","merge-pdf",{"className":"tool-card-link","href":"/tools/merge-pdf","children":["$","article",null,{"className":"tool-card","children":[["$","span",null,{"className":"material-symbols-outlined tone-tertiary","children":"merge"}],["$","h3",null,{"children":"Merge PDF"}],["$","p",null,{"children":"Combine multiple PDF files into one finished document."}],["$","div",null,{"className":"tool-meta","children":[["$","span",null,{"children":"Multi-file PDF tool"}],["$","span",null,{"className":"material-symbols-outlined tone-tertiary","children":"arrow_forward"}]]}]]}]}],["$","$L10","compress-pdf",{"className":"tool-card-link","href":"/tools/compress-pdf","children":["$","article",null,{"className":"tool-card","children":[["$","span",null,{"className":"material-symbols-outlined tone-primary","children":"compress"}],["$","h3",null,{"children":"Compress PDF"}],["$","p",null,{"children":"Reduce PDF size for sharing, email, and upload limits."}],["$","div",null,{"className":"tool-meta","children":[["$","span",null,{"children":"Smaller file workflow"}],["$","span",null,{"className":"material-symbols-outlined tone-primary","children":"arrow_forward"}]]}]]}]}],["$","$L10","ocr-scanner",{"className":"tool-card-link","href":"/tools/ocr-scanner","children":["$","article",null,{"className":"tool-card","children":[["$","span",null,{"className":"material-symbols-outlined tone-secondary","children":"scan"}],["$","h3",null,{"children":"OCR Scanner"}],["$","p",null,{"children":"Extract readable text from images and scanned content."}],["$","div",null,{"className":"tool-meta","children":[["$","span",null,{"children":"Image text extraction"}],["$","span",null,{"className":"material-symbols-outlined tone-secondary","children":"arrow_forward"}]]}]]}]}]]}]]}]
+1d:["$","footer",null,{"className":"site-footer","id":"pricing","children":["$","div",null,{"className":"footer-grid","children":[["$","div",null,{"className":"footer-brand","children":[["$","span",null,{"className":"footer-logo","children":"Convertly"}],["$","p",null,{"children":"The world's most private and secure browser-based file conversion toolkit."}],["$","span",null,{"className":"footer-copy","children":"© 2026 Convertly SaaS. All rights reserved."}]]}],["$","div",null,{"children":[["$","h4",null,{"children":"Tools"}],["$","$L10",null,{"href":"/tools/merge-pdf","children":"Merge PDF"}],["$","$L10",null,{"href":"/tools/image-to-pdf","children":"Image to PDF"}],["$","$L10",null,{"href":"/tools/compress-pdf","children":"Compress PDF"}]]}],["$","div",null,{"children":[["$","h4",null,{"children":"Resources"}],["$","$L10",null,{"href":"/start","children":"Launchpad"}],["$","$L10",null,{"href":"/#workflows","children":"Workflows"}],["$","$L10",null,{"href":"/#faq","children":"Help Center"}]]}],["$","div",null,{"children":[["$","h4",null,{"children":"Legal"}],["$","$L10",null,{"href":"/#faq","children":"Privacy Policy"}],["$","$L10",null,{"href":"/#faq","children":"Terms of Service"}],["$","div",null,{"className":"footer-icons","children":[["$","span",null,{"className":"material-symbols-outlined","children":"language"}],["$","span",null,{"className":"material-symbols-outlined","children":"shield"}],["$","span",null,{"className":"material-symbols-outlined","children":"share"}]]}]]}]]}]}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+20:I[27201,["/convertly/_next/static/chunks/01xlw8hd842-c.js","/convertly/_next/static/chunks/0d3shmwh5_nmn.js"],"IconMark"]
+7:null
+c:[["$","title","0",{"children":"Image to PDF | Convertly"}],["$","meta","1",{"name":"description","content":"Turn JPG, PNG, and WebP files into one polished PDF. Use Image to PDF in Convertly's browser-based workspace for a private and simple conversion flow."}],["$","meta","2",{"name":"application-name","content":"Convertly"}],["$","meta","3",{"name":"author","content":"Convertly"}],["$","link","4",{"rel":"manifest","href":"/convertly/manifest.webmanifest","crossOrigin":"$undefined"}],["$","meta","5",{"name":"keywords","content":"file converter,pdf tools,image to pdf,pdf to word,merge pdf,compress pdf,ocr scanner,jpg to png,json formatter,qr generator"}],["$","meta","6",{"name":"creator","content":"Convertly"}],["$","meta","7",{"name":"publisher","content":"Convertly"}],["$","meta","8",{"name":"robots","content":"index, follow"}],["$","meta","9",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"}],["$","meta","10",{"name":"category","content":"technology"}],["$","link","11",{"rel":"canonical","href":"https://hiskytechs.com/convertly/tools/image-to-pdf/"}],["$","meta","12",{"property":"og:title","content":"Image to PDF | Convertly"}],["$","meta","13",{"property":"og:description","content":"Turn JPG, PNG, and WebP files into one polished PDF. Use Image to PDF in Convertly's browser-based workspace for a private and simple conversion flow."}],["$","meta","14",{"property":"og:url","content":"https://hiskytechs.com/convertly/tools/image-to-pdf/"}],["$","meta","15",{"property":"og:type","content":"website"}],["$","meta","16",{"name":"twitter:card","content":"summary"}],["$","meta","17",{"name":"twitter:title","content":"Image to PDF | Convertly"}],["$","meta","18",{"name":"twitter:description","content":"Turn JPG, PNG, and WebP files into one polished PDF. Use Image to PDF in Convertly's browser-based workspace for a private and simple conversion flow."}],["$","link","19",{"rel":"shortcut icon","href":"/icon.svg"}],["$","link","20",{"rel":"icon","href":"/icon.svg"}],["$","link","21",{"rel":"apple-touch-icon","href":"/icon.svg"}],["$","$L20","22",{}]]

@@ -1,0 +1,18 @@
+<svg viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="28" />
+    </filter>
+  </defs>
+  <rect width="400" height="500" fill="#101018" />
+  <circle cx="200" cy="185" r="120" fill="#3b82f6" opacity="0.16" filter="url(#glow)" />
+  <g stroke="#f4f5f9" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M95 445 C95 335 145 280 200 280 C255 280 305 335 305 445" />
+    <path d="M180 215 L180 255" />
+    <path d="M220 215 L220 255" />
+    <circle cx="200" cy="175" r="50" />
+    <path d="M153 150 C153 90 247 90 247 150" />
+    <path d="M151 147 C118 192 122 252 150 288" />
+    <path d="M249 147 C282 192 278 252 250 288" />
+  </g>
+</svg>

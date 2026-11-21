@@ -1,0 +1,14 @@
+<?php
+
+$host = "localhost";
+$user = "u117069670_hiskytechali07";     // change if needed
+$pass = "Hiskytechs_Management23";         // change if needed
+$db   = "u117069670_hiskytech_data";
+
+$conn = mysqli_connect($host, $user, $pass, $db);
+
+if (!$conn) {
+    die("Database connection failed: " . mysqli_connect_error());
+}
+?>
+

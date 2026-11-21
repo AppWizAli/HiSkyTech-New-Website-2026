@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+
+Host: https://xorvian.hiskytechs.com
+Sitemap: https://xorvian.hiskytechs.comsitemap.xml

@@ -1,0 +1,1061 @@
+/* Section background */
+.info-section {
+  background-color: #fff;
+}
+
+/* Headings and text */
+.info-subtitle {
+  font-size: 18px;
+  color: #274d90;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+}
+
+.info-text {
+  font-size: 21px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.info-title {
+  font-size: clamp(28px, 4vw, 30px);
+  color: #000000;
+  margin-bottom: 1rem;
+}
+.info-list {
+  list-style: disc;       /* show bullets */
+  padding-left: 1.5rem;   /* indent for bullets */
+  margin: 0;
+}
+
+.info-list li {
+  margin-bottom: 0.8rem;
+  font-size: 20px;
+  line-height: 1.5;
+  position: relative;
+}
+
+.info-list li strong {
+  font-weight: 600;
+  color: #274d90;
+  display: inline;       /* stays inline with description */
+  margin-right: 0.25rem; /* small gap after heading */
+}
+
+
+
+/* Image styling */
+.info-img {
+  max-width: 110%;   /* slightly bigger than container width */
+  width: 100%;       /* responsive width */
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 991.98px) { /* lg and below */
+  .info-title {
+    font-size: 32px;
+  }
+}
+@media (max-width: 575.98px) { /* xs */
+  .info-subtitle {
+    font-size: 16px;
+  }
+  .info-title {
+    font-size: 28px;
+  }
+  .point-title {
+    font-size: 13px;
+  }
+  .point-desc {
+    font-size: 14px;
+  }
+}
+
+
+
+/* ........................................ */
+
+
+  
+ /* Section */
+.hover-card-section {
+  background: #fff;
+}
+
+/* Section heading */
+.section-title {
+  font-size: clamp(28px, 4vw, 42px);
+  color: #000;
+}
+
+/* Card wrapper */
+.hover-card {
+  position: relative;
+  height: 600px;
+  overflow: hidden;
+  border-radius: 14px;
+  cursor: pointer;
+}
+
+/* Background image */
+.hover-card-bg {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  transform: scale(1.08); /* initial zoom */
+  transition: transform 0.7s ease, filter 0.7s ease;
+}
+
+/* Zoom + depth on hover */
+.hover-card:hover .hover-card-bg {
+  transform: scale(1.18);
+  filter: blur(2px);
+}
+
+/* Dark overlay */
+.hover-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  transition: background 0.6s ease, backdrop-filter 0.6s ease;
+  z-index: 1;
+}
+
+.hover-card:hover::after {
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(6px);
+}
+
+/* Card title (always visible) */
+.hover-card-title {
+  position: absolute;
+  top: 20px;
+  left: 24px;
+  right: 24px;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.3;
+  z-index: 3;
+}
+
+/* Hover content (p + button only) */
+.hover-card-content {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  padding: 24px;
+  padding-top: 80px; /* space for title */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.6s ease;
+}
+
+/* Reveal content on hover */
+.hover-card:hover .hover-card-content {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Paragraph */
+.hover-card-content p {
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+/* Button */
+.theme-btn1 {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background: #274d90;
+  border: 2px solid #274d90;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.theme-btn1:hover {
+  background: #fff;
+  color: #274d90;
+}
+
+/* Small button */
+.small-btn1 {
+  align-self: flex-end;
+  padding: 8px 20px;
+  font-size: 18px;
+}
+/* Large Desktop / lg (>=992px & <1200px) */
+@media (max-width: 1199px) {
+  .hover-card {
+    height: 580px;
+  }
+  .hover-card-title {
+    font-size: 22px;
+    top: 18px;
+    left: 20px;
+    right: 20px;
+  }
+  .hover-card-content p {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  .theme-btn1.small-btn1 {
+    font-size: 17px;
+    padding: 7px 18px;
+  }
+}
+
+/* Medium / Tablet (md: 768px - 991px) */
+@media (max-width: 991px) {
+  .hover-card {
+    height: 500px;
+  }
+  .hover-card-title {
+    font-size: 24px;
+    top: 16px;
+    left: 16px;
+    right: 16px;
+  }
+  .hover-card-content {
+    padding: 16px;
+    padding-top: 64px;
+  }
+  .hover-card-content p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .theme-btn1.small-btn1 {
+    font-size: 16px;
+    padding: 6px 16px;
+  }
+}
+/* Medium / Tablet (md: 768px - 991px) */
+@media (max-width: 991px) {
+  .hover-card {
+    height: 500px;
+  }
+  .hover-card-title {
+    font-size: 24px;
+    top: 16px;
+    left: 16px;
+    right: 16px;
+  }
+  .hover-card-content {
+    padding: 16px;
+    padding-top: 64px;
+  }
+  .hover-card-content p {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+  .theme-btn1.small-btn1 {
+    font-size: 16px;
+    padding: 6px 16px;
+  }
+}
+
+/* Small / sm (576px - 767px) */
+@media (max-width: 767px) {
+  .hover-card {
+    height: 450px;
+  }
+  .hover-card-title {
+    font-size: 20px;
+    top: 12px;
+    left: 12px;
+    right: 12px;
+  }
+  .hover-card-content {
+    padding: 12px;
+    padding-top: 56px;
+  }
+  .hover-card-content p {
+    font-size: 14px;
+    line-height: 1.4;
+      color:#f5eeee;
+  }
+  .theme-btn1.small-btn1 {
+    font-size: 14px;
+    padding: 5px 14px;
+  }
+}
+
+/* Extra Small / xs (<576px) - iPhone, small phones */
+@media (max-width: 575px) {
+  .hover-card {
+    height: 420px;
+  }
+  .hover-card-title {
+    font-size: 18px;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+  }
+  .hover-card-content {
+    padding: 10px;
+    padding-top: 50px;
+  }
+  .hover-card-content p {
+    font-size: 17px;
+    line-height: 1.3;
+     color:#f5eeee;
+  }
+  .theme-btn1.small-btn1 {
+    font-size: 13px;
+    padding: 4px 12px;
+  }
+}
+
+/* Optional: very small / mini screens (<480px) */
+@media (max-width: 480px) {
+  .hover-card {
+    height: 380px;
+  }
+  .hover-card-title {
+    font-size: 16px;
+    top: 8px;
+    left: 8px;
+    right: 8px;
+  }
+  .hover-card-content {
+    padding: 8px;
+    padding-top: 45px;
+  }
+  .hover-card-content p {
+    font-size: 16px;
+    line-height: 1.2;
+     color:#f5eeee;
+  }
+  .theme-btn1.small-btn1 {
+    font-size: 12px;
+    padding: 3px 10px;
+  }
+}
+
+
+/* ......................................  */
+
+
+/* Image Only Section */
+.image-only-section {
+  width: 100vw; /* full viewport width */
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.image-wrapper {
+  width: 100%;
+  height: auto; /* auto height adjusts according to image */
+  margin: 0;
+  padding: 0;
+}
+
+.image-wrapper img.full-image {
+  width: 100%;
+  height: auto; /* maintain aspect ratio */
+  display: block;
+  object-fit: cover; /* fill container, no gaps */
+}
+
+/* Responsive adjustments */
+@media (max-width: 991px) {
+  .image-wrapper img.full-image {
+    width: 100%;
+  }
+}
+
+@media (max-width: 575px) {
+  .image-wrapper img.full-image {
+    width: 100%;
+  }
+}
+
+
+/* ...............................  */
+
+
+    .feature-cards-section {
+  background-color: #fff;
+  color: #000;
+}
+
+/* Headings */
+.section-subtitle {
+  font-size: 18px;
+  color: #274d90;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 0.5rem;
+}
+
+.section-title {
+  font-size: clamp(28px, 4vw, 40px);
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 2rem;
+}
+
+/* Card general style */
+.feature-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+  padding: 2em;
+  background-color: #fff;
+  transition: all 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 30px rgba(39,77,144,0.15);
+  border-color: #274d90;
+}
+
+/* Borders between cards like industry verticals */
+.industry-verticals_card {
+  border: 1px solid #274d90;
+  
+}
+
+/* Remove right border on last column in row for large screens */
+@media (min-width: 768px) {
+  .col-md-3:last-child, .col-md-4:last-child {
+    border-right: none;
+  }
+}
+
+/* Remove bottom border for last row */
+.row > .col-12:last-child,
+.row > .col-sm-6:last-child,
+.row > .col-md-4:nth-last-child(-n+3) { /* last row */
+  border-bottom: none;
+}
+
+/* Card image */
+.card-img {
+ background-color: var(--no-color--white)
+white
+;
+    border-radius: 10px;
+    width: 4rem;
+    height: 4rem;
+    margin-bottom: 7px;
+    padding: 2px;
+    box-shadow: 0 2px 11px #0003;
+}
+
+/* Card title */
+.card-title {
+  font-size: 30px;
+  color: #133166;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+/* Card text */
+.card-text {
+  font-size: 16px;
+  color: #555;
+  text-align: center;
+  line-height: 1.5;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 767.98px) {
+  .feature-card {
+    padding: 1rem;
+  }
+  .card-title {
+    font-size: 16px;
+  }
+  .card-text {
+    font-size: 13px;
+  }
+  .industry-verticals_card {
+    border-right: none; /* stacked cards on small screen no right border */
+    border-bottom: 1px solid #274d90;
+  }
+}
+/* iPad Mini (744px – 819px) */
+@media (min-width: 744px) and (max-width: 819px) {
+  .feature-card {
+    padding: 1.4rem;
+  }
+
+  .card-title {
+    font-size: 20px;
+    line-height: 1.3;
+  }
+
+  .card-text {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+}
+/* iPad Air (820px – 1023px) */
+@media (min-width: 820px) and (max-width: 1023px) {
+  .feature-card {
+    padding: 1.6rem;
+  }
+
+  .card-title {
+    font-size: 22px;
+    line-height: 1.35;
+  }
+
+  .card-text {
+    font-size: 15px;
+    line-height: 1.55;
+  }
+}
+/* iPad Pro (1024px – 1366px) */
+@media (min-width: 1024px) and (max-width: 1366px) {
+  .feature-card {
+    padding: 0rem;
+  }
+
+  .card-title {
+    font-size: 24px;
+    line-height: 1.4;
+  }
+
+  .card-text {
+    font-size: 14px;
+    line-height: 1.2;
+  }
+}
+
+/* .......................................... */
+
+ .theme-btn1 {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 18px 28px;
+  font-size: 20px;
+  font-weight: 600;
+
+  color: #fff;                 /* text white */
+  background-color: #274d90;   /* dark blue bg */
+  border: 2px solid #274d90;   /* dark blue border */
+border-radius: 50px;
+  text-decoration: none;
+ 
+  transition: all 0.3s ease;
+}
+
+.theme-btn1:hover {
+  background-color: #fff;      /* white bg */
+  color: #274d90;              /* dark blue text */
+  border-color: #274d90;
+}
+
+/* Section Styling */
+.tech-stack-section {
+  background: #fff;
+}
+
+/* Heading */
+.tech-title {
+  font-size: clamp(32px, 4vw, 48px);
+  color: #000;
+}
+
+.tech-subtitle {
+  max-width: 720px;
+  margin: 0 auto;
+  font-size: 18px;
+  color: #555;
+}
+
+/* Tech Grid */
+.tech-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+/* Tech Card */
+.tech-card {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 10.3em; /* default width for smaller screens */
+  height: 10.3em;
+  padding: 1.1em;
+  gap: 0.5rem;
+  background-color: var(--no-color--white, #fff);
+  border: 1px solid #071f75;
+  border-radius: 10px;
+  box-shadow: 0 2px 15px 2px rgba(2, 81, 201, 0.2);
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.tech-card img {
+  max-height: 50px;
+  max-width: 120px;
+  object-fit: contain;
+}
+
+.tech-card span {
+  font-size: 14px;
+  font-weight: 600;
+  color: #274d90;
+}
+
+/* Hover Effect */
+.tech-card:hover {
+  transform: translateY(-6px);
+  border-color: #274d90;
+  box-shadow: 0 8px 25px 4px rgba(7, 66, 228, 0.3);
+}
+
+/* Responsive Widths for 8 cards per row */
+@media (min-width: 1200px) { /* xl */
+  .tech-card {
+    width: calc((100% - 7rem) / 8); /* 8 cards per row with 1rem gap */
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) { /* lg */
+  .tech-card {
+    width: calc((100% - 5rem) / 6); /* 6 cards per row */
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { /* md */
+  .tech-card {
+    width: calc((100% - 3rem) / 4); /* 4 cards per row */
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) { /* sm */
+  .tech-card {
+    width: calc((100% - 1rem) / 2); /* 2 cards per row */
+  }
+}
+
+@media (max-width: 575.98px) { /* xs */
+  .tech-card {
+    width: 90%; /* single card per row */
+  }
+}
+
+
+/* .............................................  */
+
+/* =============================
+   Works Section
+============================= */
+.works-section {
+  padding: 80px 0;
+  background: #f7f7f7;
+}
+
+.works-title {
+  font-size: 42px;
+  font-weight: 700;
+  color: #2d2d2d;
+  margin-bottom: 20px;
+}
+
+.works-subtitle {
+
+  margin: 0 auto;
+  font-size: 18px;
+  color: #555;
+  line-height: 1.2;
+}
+
+/* =============================
+   Card
+============================= */
+.work-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 50px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.project-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.portfolio-badge {
+  display: inline-block;
+  background: #e6c79c;
+  color: #fff;
+  font-size: 14px;
+  padding: 1px 12px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.project-description {
+  font-size: 17px;
+  line-height: 1.8;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.case-btn {
+  display: inline-block;
+  background: #4a4e7c;
+  color: #fff;
+  padding: 10px 25px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.case-btn:hover {
+  background: #5059b7;
+  color: #fff;
+}
+
+.project-image {
+  max-width: 100%;
+}
+
+/* =============================
+   Responsive Adjustments
+============================= */
+
+/* Tablets (md) */
+@media (max-width: 991px) {
+
+  .work-card {
+    padding: 35px;
+  }
+
+  .works-title {
+    font-size: 32px;
+  }
+
+  .project-title {
+    font-size: 26px;
+  }
+
+}
+
+/* Mobile (sm) */
+@media (max-width: 576px) {
+
+  .works-section {
+    padding: 50px 0;
+  }
+
+  .work-card {
+    padding: 25px;
+  }
+
+  .works-title {
+    font-size: 26px;
+  }
+
+  .works-subtitle {
+    font-size: 15px;
+  }
+
+  .project-description {
+    font-size: 15px;
+  }
+
+  .case-btn {
+    width: 100%;
+    text-align: center;
+  }
+
+}
+
+
+/* ..........................................................  */
+
+/* ==============================
+   Latest Projects Section
+============================== */
+.latest-projects {
+ 
+  background-color: #fff;
+}
+
+.latest-projects-title {
+  font-size: 42px;
+  font-weight: 700;
+  color: #2c2c2c;
+  margin-bottom: 20px;
+}
+
+.latest-projects-subtitle {
+  max-width: 750px;
+  margin: 0 auto;
+  font-size: 18px;
+  color: #555;
+  line-height: 1.7;
+  margin-bottom: 0;
+}
+
+/* ==============================
+   Project Card
+============================== */
+.latest-project-card {
+background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+  border-radius: 12px;
+  padding: 20px;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  margin-bottom: 10px;
+}
+
+.latest-project-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.latest-project-description {
+  font-size: 17px;
+  line-height: 1.8;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.latest-project-image {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+/* ==============================
+   Responsive Adjustments
+============================== */
+@media (max-width: 991px) {
+  .latest-project-card {
+    padding: 35px;
+  }
+
+  .latest-projects-title {
+    font-size: 32px;
+  }
+
+  .latest-project-title {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 576px) {
+  .latest-projects {
+    padding: 50px 0;
+  }
+
+  .latest-project-card {
+    padding: 25px;
+  }
+
+  .latest-projects-title {
+    font-size: 26px;
+  }
+
+  .latest-projects-subtitle {
+    font-size: 15px;
+  }
+
+  .latest-project-description {
+    font-size: 15px;
+  }
+
+  .case-btn {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+
+
+/* ........................................................  */
+.feature-points-section {
+  padding: 80px 15px;
+
+}
+
+/* LEFT & RIGHT CARD STYLES */
+.feature-card-left,
+.feature-card-right {
+ 
+  border-radius: 12px;
+  padding: 40px 30px;
+  height: 100%; /* Equal height */
+  /* Shadow removed for flat look */
+}
+
+/* Titles & Subtitles */
+.feature-card-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #2d2d2d;
+  margin-bottom: 15px;
+  text-align: left; /* Left align */
+}
+
+.feature-card-subtitle {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 25px;
+  text-align: left;
+}
+
+/* Ordered List */
+.feature-card-list {
+  list-style-type: decimal;
+  padding-left: 25px;
+  font-size: 17px;
+  line-height: 1.6;
+  color: #555;
+}
+
+.feature-card-list li {
+  margin-bottom: 15px;
+}
+
+/* ===== RESPONSIVE ===== */
+
+/* Large screens */
+@media (max-width: 1199px) {
+  .feature-card-title { font-size: 28px; }
+  .feature-card-subtitle { font-size: 16px; }
+  .feature-card-list { font-size: 15px; }
+}
+
+/* Medium devices */
+@media (max-width: 991px) {
+  .feature-points-section { padding: 60px 15px; }
+  .feature-card-left,
+  .feature-card-right { padding: 30px 20px; }
+  .feature-card-title { font-size: 26px; }
+  .feature-card-subtitle { font-size: 15px; }
+  .feature-card-list { font-size: 14px; }
+}
+
+/* Small devices */
+@media (max-width: 576px) {
+  .feature-points-section { padding: 50px 10px; }
+  .feature-card-left,
+  .feature-card-right { padding: 25px 15px; }
+  .feature-card-title { font-size: 22px; }
+  .feature-card-subtitle { font-size: 14px; }
+  .feature-card-list { font-size: 14px; }
+}
+
+
+
+/* ................................................................  */
+/* ================= Section Base ================= */
+.case-details-section {
+  padding: 100px 0;
+  background: #f9f9f9;
+}
+
+/* ================= Titles ================= */
+.section-title {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #2c2c2c;
+}
+
+.content-title {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #2c2c2c;
+}
+
+/* ================= Text ================= */
+.section-text {
+  font-size: 18px;
+  
+  color: #555;
+  margin-bottom: 18px;
+}
+
+/* ================= Content Blocks ================= */
+.content-block {
+  margin-top: 90px;
+}
+
+/* Image Top Fix */
+.content-image {
+  display: block;
+  max-width: 100%;
+}
+
+/* ================= Responsive ================= */
+
+/* Tablet */
+@media (max-width: 991px) {
+
+  .case-details-section {
+    padding: 70px 0;
+  }
+
+  .section-title {
+    font-size: 32px;
+  }
+
+  .content-title {
+    font-size: 24px;
+  }
+
+  .content-block {
+    margin-top: 60px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+
+  .case-details-section {
+    padding: 50px 0;
+  }
+
+  .section-title {
+    font-size: 26px;
+  }
+
+  .content-title {
+    font-size: 20px;
+  }
+
+  .section-text {
+    font-size: 15px;
+  }
+}

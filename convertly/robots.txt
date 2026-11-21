@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+
+Host: https://hiskytechs.com/convertly
+Sitemap: https://hiskytechs.com/convertly/sitemap.xml
