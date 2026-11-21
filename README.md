@@ -51,5 +51,5 @@ If `public_html` already has an `.htaccess`, merge `out/.htaccess` into it inste
 
 In `lib/site.ts`:
 
-- `CALENDLY_URL` — empty until a real scheduling link is pasted. Book a call emails `hiskytechs@gmail.com` in the meantime.
+- `CALENDLY_URL` — `https://calendly.com/hiskytechs/30min`. Book a call opens that page in a new tab. Clear the string to fall back to email.
 - `FORM_ENDPOINT` — empty on purpose. The inquiry form opens WhatsApp (`wa.me/923186362759`) and, without JavaScript, uses `mailto:`. Paste a Formspree/Getform URL here only if you want the form to POST somewhere else. Do not point it at a Next.js API route; this hosting is static.

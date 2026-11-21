@@ -17,13 +17,11 @@ export const LOCATION = "Sargodha, Pakistan";
 export const LOCATION_LONG = "Sargodha, Punjab, Pakistan";
 
 /**
- * OWNER INPUT — paste the Calendly (or Cal.com) scheduling URL here.
- * Example: "https://calendly.com/hiskytech/intro"
- *
- * Leave this as an empty string until the real link exists. The Book a call
- * button then emails hiskytechs@gmail.com instead of pointing at a dead URL.
+ * Scheduling link for every "Book a call" button. Those links open in a new tab.
+ * Clear this string only if the event is retired; the button then falls back
+ * to emailing hiskytechs@gmail.com instead of a dead URL.
  */
-export const CALENDLY_URL = "";
+export const CALENDLY_URL = "https://calendly.com/hiskytechs/30min";
 
 /**
  * OWNER INPUT — optional inquiry-form backend.
